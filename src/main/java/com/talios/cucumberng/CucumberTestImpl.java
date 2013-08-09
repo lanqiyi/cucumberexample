@@ -1,16 +1,17 @@
 package com.talios.cucumberng;
 
-import cucumber.runtime.RuntimeOptions;
-import cucumber.runtime.io.FileResourceLoader;
+import static org.testng.Assert.fail;
+
+import java.util.Arrays;
+import java.util.Properties;
+
 import org.testng.ITest;
 import org.testng.Reporter;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-import java.util.Arrays;
-import java.util.Properties;
-
-import static org.testng.Assert.fail;
+import cucumber.io.FileResourceLoader;
+import cucumber.runtime.RuntimeOptions;
 
 public class CucumberTestImpl implements ITest {
 

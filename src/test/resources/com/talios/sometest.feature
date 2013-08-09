@@ -8,4 +8,4 @@ Feature: iTunes Library
 
     Examples: Single digits
       | filename   | artist    | albumcount |
-      | itunes.xml | Meshuggah |          5 |
+      | itunes.xml | J K. Rowling |          5 |

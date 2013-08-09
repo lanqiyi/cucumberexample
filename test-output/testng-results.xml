@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div class="featureFile">Feature File: src\test\resources\com\talios\someothertest.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="feature">Feature: Another iTunes Library</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario Outline: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Given  the iTunes file <filename> (passed : 0.15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">When  searching for the artist <artist> (pending : 0.0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Then  there should be <albumcount> albums found (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="featureFile">Feature File: src\test\resources\com\talios\sometest.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="feature">Feature: iTunes Library</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario Outline: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="scenario">Scenario: Loading</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Given  the iTunes file <filename> (passed : 0.0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">When  searching for the artist <artist> (pending : 0.0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div class="result">Then  there should be <albumcount> albums found (skipped)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="531" started-at="2013-08-05T20:04:32Z" finished-at="2013-08-05T20:04:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="531" started-at="2013-08-05T20:04:32Z" finished-at="2013-08-05T20:04:33Z">
+      <class name="com.talios.cucumberng.CucumberTestImpl">
+        <test-method status="SKIP" signature="cucumber()[pri:0, instance:com.talios.cucumberng.CucumberTestImpl@12d7a10]" test-instance-name="src\test\resources\com\talios\someothertest.feature" name="cucumber" duration-ms="484" started-at="2013-08-05T20:04:32Z" finished-at="2013-08-05T20:04:33Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[src\test\resources\com\talios\someothertest.feature skipped with 0 failures, 1 skips, 2 passes]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: src\test\resources\com\talios\someothertest.feature skipped with 0 failures, 1 skips, 2 passes
+	at com.talios.cucumberng.CucumberTestImpl.cucumber(CucumberTestImpl.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+        </test-method> <!-- cucumber -->
+        <test-method status="SKIP" signature="cucumber()[pri:0, instance:com.talios.cucumberng.CucumberTestImpl@a8c488]" test-instance-name="src\test\resources\com\talios\sometest.feature" name="cucumber" duration-ms="47" started-at="2013-08-05T20:04:33Z" finished-at="2013-08-05T20:04:33Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[src\test\resources\com\talios\sometest.feature skipped with 0 failures, 1 skips, 2 passes]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: src\test\resources\com\talios\sometest.feature skipped with 0 failures, 1 skips, 2 passes
+	at com.talios.cucumberng.CucumberTestImpl.cucumber(CucumberTestImpl.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+        </test-method> <!-- cucumber -->
+      </class> <!-- com.talios.cucumberng.CucumberTestImpl -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
